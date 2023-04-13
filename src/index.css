@@ -75,7 +75,7 @@ section > h5 {
 }
 
 a {
-  color: var(--main-color-variant);
+  color: var(--main-color-platinum);
   transition: var(--transition);
 
 }
@@ -111,21 +111,22 @@ img {
   display: block;
   width: 100%;
   object-fit: cover; 
-}
+} 
 
 /* &&&&&&&&&&  **** MEDIA QUERIES **** && ****TABLETS**** &&&&&&& */
 
 
-@media screen and (max-width: 1024px) {
+ @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
   .section {
     margin-top: 6rem;
   }
-}
+} 
 
 /* &&&&&&&&&&  **** MEDIA QUERIES **** && ****MOBILE**** &&&&&&& */
+
 
 
 @media screen and (max-width: 600px) {
@@ -135,7 +136,7 @@ img {
   .section > h2 {
     margin-bottom: 2rem;
   }
-}
+} 
 
 
 

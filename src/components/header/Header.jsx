@@ -4,7 +4,7 @@ import Cta from "./Cta";
 
 const Header = () => {
   return (
-    <Header>
+    <header>
       <div className="container header_container"> 
       <h5> Hello I'm</h5>
       <h1> Juan Andres Gutierrez</h1>
@@ -12,7 +12,7 @@ const Header = () => {
       <Cta/>
       </div>
 
-    </Header>
+    </header>
   )
 }
 
